@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formulário de teste</h1>
+    <form action="">
+
+
+        <div class="form-control">
+            <label for="nome">
+                Nome
+            </label>
+            <input type="text" id="nome" placeholder="Insira seu nome" />
+        </div>
+
+
+        <div class="form-control">
+            <label for="email">
+                Email
+            </label>
+            <input type="text" id="email" placeholder="Insira seu email" />
+        </div>
+
+
+        <div class="form-control">
+            <label for="idade">
+                Idade
+            </label>
+            <input type="text" id="idade" placeholder="Insira seu idade" />
+        </div>
+
+
+        <div class="form-control">
+            <label for="role">Em qual opção você mais se encaixa?</label>
+            <select name="role" id="role">
+                <option value="Estudante">Estudante</option>
+                <option value="Estagiário">Estagiário</option>
+                <option value="Profissional">Profissional</option>
+            </select>
+        </div>
+
+
+        <div class="form-control">
+            <label>Você recomendaria GeeksforGeeks para um amigo?</label>
+            <label for="recomende-1">
+                <input type="radio" id="recomende-1" name="recomende">Sim</input>
+            </label>
+            <label for="recomende-2">
+                <input type="radio" id="recomende-2" name="recomende">Não</input>
+            </label>
+            <label for="recomende-3">
+                <input type="radio" id="recomende-3" name="recomende">Talvez</input>
+            </label>
+        </div>
+
+
+        <div class="form-control">
+			<label>Linguagens e Frameworks que você sabe
+				<small>(clique em todas que se aplicam)</small>
+			</label>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">C</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">C++</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">C#</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">Java</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">Python</input></label>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">JavaScript</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">React</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Angular</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Django</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Spring</input></label>
+		</div>
+
+
+        <div class="form-control">
+			<label for="comentario">
+				Deixe algum comentário ou alguma sugestão:
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="comentario" id="comentario"
+				placeholder="Insira seu comentário">
+			</textarea>
+		</div>
+
+
+        <button type="submit" value="submit">
+			Submit
+		</button>
+
+
+    </form>
+</body>
+
+</html>
